@@ -1,7 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fffc88-2df2-4c8d-8b29-38bf408a21ab" name="Default Changelist" comment="" />
+    <list default="true" id="29fffc88-2df2-4c8d-8b29-38bf408a21ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/about/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/about/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/about/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/about/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/close-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/logos/creative-market.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/logos/designmodo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/logos/envato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/logos/themeforest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/map-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/navbar-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/01-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/01-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/02-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/02-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/03-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/03-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/04-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/05-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/06-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/mail/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/mail/contact_me.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/mail/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build-assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build-pug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build-scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/render-assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/render-pug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/render-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/render-scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/sb-watch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start-debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/close-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logos/creative-market.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logos/designmodo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logos/envato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/logos/themeforest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/map-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/navbar-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/01-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/01-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/02-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/02-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/03-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/03-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/04-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/05-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/06-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mail/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mail/contact_me.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mail/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_portfolio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_timeline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables/_typography.scss" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +123,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="abc99b35-369d-4915-8033-f54366a4b2ba" />
   <component name="ProjectId" id="1g5KFSxejc31hOWdUaX7fdI24YU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +139,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WAR_PYT_S_23_zaawansowane_django/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -203,6 +312,8 @@
       <workItem from="1599127449134" duration="1295000" />
       <workItem from="1599130394952" duration="5475000" />
       <workItem from="1599237841513" duration="1786000" />
+      <workItem from="1599240065362" duration="486000" />
+      <workItem from="1599240552533" duration="3797000" />
     </task>
     <servers />
   </component>
@@ -222,10 +333,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="195" y="355" width="667" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1598446773382" />
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597399190578">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599240587866">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1597399190578" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1599240587866" />
     <state width="1802" height="288" key="GridCell.Tab.0.bottom" timestamp="1599238509906">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -266,6 +377,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/72.27.1848.1053@72.27.1848.1053" timestamp="1597846829255" />
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1599246186930">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1599246186930" />
     <state x="365" y="292" width="618" height="580" key="find.popup" timestamp="1599134811890">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+{% block content %}
+
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container d-inline">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Czy jesteś pewny, że chcesz skasować </h2>
+                <h2 class="section-subheading text-muted">{{ object }}</h2>
+            </div>
+
+            <form method="post" class='text-xl-center'>
+                {% csrf_token %}
+
+                <input type="submit" class="btn btn-primary btn-xl text-uppercase" name="delete" value="Tak">
+
+                <input type="submit" name="delete" class="btn btn-primary btn-xl text-uppercase" value="Nie">
+            </form>
+        </div>
+    </section>
+
+{% endblock %}

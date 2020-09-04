@@ -1,0 +1,9 @@
+[
+  "testy/test_plony.py::test_base_view",
+  "testy/test_plony.py::test_categories_view",
+  "testy/test_plony.py::test_company_view",
+  "testy/test_plony.py::test_employee_view",
+  "testy/test_plony.py::test_login_view",
+  "testy/test_plony.py::test_products_view",
+  "testy/test_plony.py::test_season_view"
+]

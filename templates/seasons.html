@@ -1,0 +1,106 @@
+{% extends 'main.html' %}
+{% block content %}
+    {% load static %}
+    <div class='float-lg-right'>
+
+
+        <a href="{% url 'create_season' %}">
+            <button class="btn btn-primary btn-xl text-uppercase" id="back" type="submit"> Wróć do edycji sezonu</button>
+        </a>
+
+    </div>
+
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container d-inline">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Sezon {{ season.name }}</h2>
+                <h3 class="section-subheading text-muted">Lista produktów w tym sezonie </h3>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row">
+                {% for product in season_products %}
+                    <div class="col-lg-4 col-sm-6 mb-4" style="width:200px">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" href="/{{ product.get_detail_url }}">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="/plony{{ product.img.url }}/" alt=""/>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">{{ product.name }}</div>
+                                  <form method="post">
+                                    {% csrf_token %}
+
+                                    <input type="hidden" value="{{ product.id }}" name="product">
+                                      <input type="hidden" value="delete" name="action">
+                                    <input type="submit" class="btn btn-primary btn-xl text-uppercase"
+                                           value="Usuń z sezonu">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container d-inline">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Wyszukaj i dodaj produkty do sezonu</h2>
+                <h3 class="section-subheading text-muted">Lista produktów </h3>
+            </div>
+        </div>
+        <form method="post" class="d-flex">
+            {% csrf_token %}
+
+            <table class="table schedules-content">
+                <tr>
+                    <th scope="col" class="col-1" class="d-flex ">Wyszukaj produkt</th>
+                </tr>
+                <td scope="col" class="col-2" class="d-flex">
+                    <input type="text" class="width-medium" value="Wpisz nazwę produktu" name="name"></td>
+                <tr>
+                    <td><input type="submit" class="btn btn-primary btn-xl text-uppercase" value="Szukaj"></td>
+                </tr>
+            </table>
+        </form>
+        <div class="container">
+            <div class="row">
+                {% for obj in objects %}
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item" >
+                            <a class="portfolio-link" href="/{{ obj.get_detail_url }}">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="/plony{{ obj.img.url }}/" alt=""/>
+                            </a>
+
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">{{ obj.name }}</div>
+                                <form method="post">
+                                    {% csrf_token %}
+
+                                    <input type="hidden" value="{{ obj.id }}" name="product">
+                                    <input type="hidden" value="add" name="action">
+                                    <input type="submit" class="btn btn-primary btn-xl text-uppercase"
+                                           value="Dodaj do sezonu">
+                                </form>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                {% endfor %}
+        </div>
+    </section>
+
+
+
+
+{% endblock %}
