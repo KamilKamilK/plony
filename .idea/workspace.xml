@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29fffc88-2df2-4c8d-8b29-38bf408a21ab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="abc99b35-369d-4915-8033-f54366a4b2ba" />
+  <component name="ProjectId" id="1g5KFSxejc31hOWdUaX7fdI24YU" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WAR_PYT_S_23_zaawansowane_django/project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/registration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.Plony">
+    <configuration name="Plony" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Plony" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Plony.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_plony.test_base_view" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Plony" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plony.test_base_view&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_plony.test_company_view" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Plony" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plony.test_company_view&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_plony.test_login_view" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Plony" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plony.test_login_view&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for testy.test_plony.test_products_view" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Plony" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testy.test_plony.test_products_view&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_plony.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Plony" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testy/test_plony.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.Plony" />
+      <item itemvalue="Python tests.pytest in test_plony.py" />
+      <item itemvalue="Python tests.pytest for testy.test_plony.test_products_view" />
+      <item itemvalue="Python tests.pytest for test_plony.test_company_view" />
+      <item itemvalue="Python tests.pytest for test_plony.test_base_view" />
+      <item itemvalue="Python tests.pytest for test_plony.test_login_view" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_plony.py" />
+        <item itemvalue="Python tests.pytest for test_plony.test_login_view" />
+        <item itemvalue="Python tests.pytest for test_plony.test_base_view" />
+        <item itemvalue="Python tests.pytest for test_plony.test_company_view" />
+        <item itemvalue="Python tests.pytest for testy.test_plony.test_products_view" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29fffc88-2df2-4c8d-8b29-38bf408a21ab" name="Default Changelist" comment="" />
+      <created>1597398909672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597398909672</updated>
+      <workItem from="1597398923958" duration="14087000" />
+      <workItem from="1597515540309" duration="607000" />
+      <workItem from="1597567508629" duration="2621000" />
+      <workItem from="1597571977373" duration="12917000" />
+      <workItem from="1597584966875" duration="1663000" />
+      <workItem from="1597648160889" duration="21721000" />
+      <workItem from="1597737260983" duration="2403000" />
+      <workItem from="1597752852485" duration="25307000" />
+      <workItem from="1597834626284" duration="1956000" />
+      <workItem from="1597836606557" duration="15854000" />
+      <workItem from="1597919959165" duration="18603000" />
+      <workItem from="1597940073583" duration="5439000" />
+      <workItem from="1597955254450" duration="1220000" />
+      <workItem from="1597998207709" duration="3318000" />
+      <workItem from="1598027022986" duration="3588000" />
+      <workItem from="1598125786937" duration="492000" />
+      <workItem from="1598260964239" duration="23617000" />
+      <workItem from="1598342518820" duration="1358000" />
+      <workItem from="1598345754265" duration="847000" />
+      <workItem from="1598358604561" duration="17533000" />
+      <workItem from="1598424540420" duration="11273000" />
+      <workItem from="1598446071677" duration="5105000" />
+      <workItem from="1598462379494" duration="3681000" />
+      <workItem from="1598472947987" duration="2133000" />
+      <workItem from="1598514437621" duration="7553000" />
+      <workItem from="1599127449134" duration="1295000" />
+      <workItem from="1599130394952" duration="5475000" />
+      <workItem from="1599237841513" duration="1422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598345514631">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598345514631" />
+    <state x="172" y="127" width="1648" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598465665067">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598465665067" />
+    <state x="195" y="355" width="667" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598446773382">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="195" y="355" width="667" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1598446773382" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597399190578">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1597399190578" />
+    <state width="1802" height="288" key="GridCell.Tab.0.bottom" timestamp="1599238509906">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="288" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1599238509906" />
+    <state width="1802" height="288" key="GridCell.Tab.0.center" timestamp="1599238509899">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="288" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1599238509899" />
+    <state width="1802" height="288" key="GridCell.Tab.0.left" timestamp="1599238509898">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="288" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1599238509898" />
+    <state width="1802" height="288" key="GridCell.Tab.0.right" timestamp="1599238509906">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="288" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1599238509906" />
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1598446037578">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1598446037578" />
+    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1598446037578">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1598446037578" />
+    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1598446037577">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1598446037577" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1598446037578">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1598446037578" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1598428088360">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598428088360" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1597846829255">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/72.27.1848.1053@72.27.1848.1053" timestamp="1597846829255" />
+    <state x="365" y="292" width="618" height="580" key="find.popup" timestamp="1599134811890">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="365" y="292" width="618" height="580" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1599134811890" />
+    <state x="320" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598520758685">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="320" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598520758685" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Plony$pytest_for_test_plony_test_login_view.coverage" NAME="pytest for test_plony.test_login_view Coverage Results" MODIFIED="1598523153069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$test_plony.coverage" NAME="test_plony Coverage Results" MODIFIED="1598345454318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$pytest_for_testy_test_plony_test_products_view.coverage" NAME="pytest for testy.test_plony.test_products_view Coverage Results" MODIFIED="1598474146311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1598285064040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$Test__testy.coverage" NAME="Test: testy Coverage Results" MODIFIED="1598285059426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Plony$pytest_for_test_plony_test_base_view.coverage" NAME="pytest for test_plony.test_base_view Coverage Results" MODIFIED="1598523147731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$pytest_for_test_plony_test_categories_view.coverage" NAME="pytest for test_plony.test_categories_view Coverage Results" MODIFIED="1598428266931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$pytest_in_test_plony_py.coverage" NAME="pytest in test_plony.py Coverage Results" MODIFIED="1599130483369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+    <SUITE FILE_PATH="coverage/Plony$pytest_for_test_plony_test_company_view.coverage" NAME="pytest for test_plony.test_company_view Coverage Results" MODIFIED="1598523137287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testy" />
+  </component>
+</project>

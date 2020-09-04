@@ -1,0 +1,78 @@
+{% extends 'main.html' %}
+{% block content %}
+    {% load static %}
+     <div class='float-lg-right'>
+         <a href="{% url 'main' %}"> <button class="btn btn-primary btn-xl text-uppercase" id="back" type="submit"> Wróć do strony głównej</button></a>
+        </div>
+
+    <section class="page-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Miejsce do zarządzania stoną </h2>
+                <h2 class="section-subheading text-muted">{{ user.employee.first_name }} {{ user.employee.last_name }} </h2>
+                <h3 class="section-subheading text-muted">Gdzie chcesz wprowadzić zmiany ?</h3>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="{%  url 'create_category' %}">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-align-justify fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    <h4 class="my-3">Kategorie</h4>
+                    <p class="text-muted">Dodaj, usuń, edytuj kategorie</p>
+                </div>
+
+                <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="{%  url 'create_product' %}">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-drumstick-bite fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    <h4 class="my-3">Produkty</h4>
+                    <p class="text-muted">Dodaj, usuń, edytuj produkt</p>
+                </div>
+
+                <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="{%  url 'create_employee' %}">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-smile-wink fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    <h4 class="my-3">Pracownicy</h4>
+                    <p class="text-muted">Dodaj, usuń, edytuj pracownika</p>
+                </div>
+
+                <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="{%  url 'create_season' %}">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-cloud-sun fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    <h4 class="my-3">Sezon</h4>
+                    <p class="text-muted">Dodaj, usuń, edytuj sezon</p>
+                </div>
+
+                <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a href="{%  url 'registration' %}">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-address-card fa-stack-1x fa-inverse"></i></a>
+                        </span>
+                    <h4 class="my-3">Rejestracja</h4>
+                    <p class="text-muted">Dodaj, usuń, edytuj użytkownika</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <a href="{%  url 'create_company' %}"><i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-hands-helping fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="my-3">Firma współpracująca</h4>
+                    <p class="text-muted">Dodaj, usuń, edytuj firmę</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

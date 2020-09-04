@@ -1,0 +1,43 @@
+{% extends 'main.html' %}
+{% block content %}
+    {% load static %}
+
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div ><img class="img-fluid"
+                                src="/plony{{ objects.get.img.url }}"
+                                alt=""/></div>
+                        <div class="container" >
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Product Details Go Here-->
+                                        <h2 class="text-uppercase">{{ product.first }} </h2>
+                                        <p class="item-intro text-muted">{{ product.get.small_description }}</p>
+
+
+                                        <ul class="list-inline">
+                                            <li><h4 class= "text"> Opis</h4></li>
+                                            <li class="item-intro text-muted">{{ product.get.description }}</li>
+                                            <li> </li></br>
+                                            <li>Cena : {{ product.get.price }}</li>
+                                            <li>Ilość : {{ product.get.stock }}</li>
+                                        </ul>
+                                        <button class="btn btn-primary" onclick="goBack()" type="button">
+                                            <i class="fas fa-times mr-1"></i>
+                                            Wróć do poprzedniej strony
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+    <script>
+function goBack() {
+  window.history.back();
+}
+</script>
+{% endblock %}
